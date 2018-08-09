@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FA996DD7211C4DCA009D8530 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA996DD6211C4DCA009D8530 /* MonNav.swift */; };
 		FA996DD9211C510E009D8530 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA996DD8211C510E009D8530 /* MenuCell.swift */; };
+		FA996DDB211C53C7009D8530 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA996DDA211C53C7009D8530 /* Plat.swift */; };
+		FA996DDD211C53FF009D8530 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA996DDC211C53FF009D8530 /* Enums.swift */; };
 		FAD25A25211A018A007B6338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD25A24211A018A007B6338 /* AppDelegate.swift */; };
 		FAD25A2A211A018A007B6338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD25A28211A018A007B6338 /* Main.storyboard */; };
 		FAD25A2C211A018D007B6338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD25A2B211A018D007B6338 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		FA996DD6211C4DCA009D8530 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		FA996DD8211C510E009D8530 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		FA996DDA211C53C7009D8530 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
+		FA996DDC211C53FF009D8530 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		FAD25A21211A018A007B6338 /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD25A24211A018A007B6338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD25A29211A018A007B6338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 		FAD25A36211A09BD007B6338 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				FA996DDA211C53C7009D8530 /* Plat.swift */,
+				FA996DDC211C53FF009D8530 /* Enums.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 				FA996DD7211C4DCA009D8530 /* MonNav.swift in Sources */,
 				FAD25A25211A018A007B6338 /* AppDelegate.swift in Sources */,
 				FAD25A41211A0C59007B6338 /* Constante.swift in Sources */,
+				FA996DDB211C53C7009D8530 /* Plat.swift in Sources */,
+				FA996DDD211C53FF009D8530 /* Enums.swift in Sources */,
 				FAD25A3C211A0A91007B6338 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
