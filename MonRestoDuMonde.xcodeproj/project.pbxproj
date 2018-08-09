@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA996DD7211C4DCA009D8530 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA996DD6211C4DCA009D8530 /* MonNav.swift */; };
 		FAD25A25211A018A007B6338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD25A24211A018A007B6338 /* AppDelegate.swift */; };
 		FAD25A2A211A018A007B6338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD25A28211A018A007B6338 /* Main.storyboard */; };
 		FAD25A2C211A018D007B6338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD25A2B211A018D007B6338 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA996DD6211C4DCA009D8530 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		FAD25A21211A018A007B6338 /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD25A24211A018A007B6338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD25A29211A018A007B6338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				FAD25A39211A0A27007B6338 /* MenuController.swift */,
 				FAD25A3B211A0A91007B6338 /* ALaCarteController.swift */,
 				FAD25A3D211A0BFF007B6338 /* MonTabBar.swift */,
+				FA996DD6211C4DCA009D8530 /* MonNav.swift */,
 			);
 			path = Controlleur;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				FAD25A3E211A0BFF007B6338 /* MonTabBar.swift in Sources */,
 				FAD25A3A211A0A27007B6338 /* MenuController.swift in Sources */,
+				FA996DD7211C4DCA009D8530 /* MonNav.swift in Sources */,
 				FAD25A25211A018A007B6338 /* AppDelegate.swift in Sources */,
 				FAD25A41211A0C59007B6338 /* Constante.swift in Sources */,
 				FAD25A3C211A0A91007B6338 /* ALaCarteController.swift in Sources */,

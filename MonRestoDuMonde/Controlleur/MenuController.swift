@@ -13,6 +13,7 @@ class MenuController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Les Menus du monde"
     }
 
     
