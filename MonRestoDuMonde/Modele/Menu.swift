@@ -1,5 +1,5 @@
 //
-//  Plat.swift
+//  Menu.swift
 //  MonRestoDuMonde
 //
 //  Created by Alex Bury on 9/08/18.
@@ -8,35 +8,28 @@
 
 import UIKit
 
-
-class Plat {
+class Menu{
     
-    private var _type: type
     private var _pays: String
-    private var _desc: String
     private var _image: UIImage
+    private var _plats: [Plat]
     
-    
-    var type: type {
-        return _type
-    }
     
     var pays: String{
         return _pays
-    }
-    
-    var desc: String{
-        return _desc
     }
     
     var image: UIImage{
         return _image
     }
     
-    init(type: type, pays: String, desc: String, image: UIImage) {
-        self._type = type
+    var plats: [Plat]{
+        return _plats
+    }
+    
+    init(pays: String, image: UIImage) {
         self._pays = pays
-        self._desc = desc
         self._image = image
+        self._plats = [Plat]()
     }
 }
